@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+#game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 320px;
+  margin: 20px auto;
+}
+
+.card {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
